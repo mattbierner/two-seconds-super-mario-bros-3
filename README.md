@@ -13,7 +13,7 @@ Scripts and data used for a [book containing every operation executed during two
 ## Capturing data from an NES game
 This project uses the FCEUX emulator. To capture your own trace:
 
-- Use the [FCEUX trace logger](http://www.fceux.com/web/help/TraceLogger.html) to capture the executed operations. Be sure to disable all optional logging fields as the scripts in this repo will not parse them properly.
+- Use the [FCEUX trace logger](http://www.fceux.com/web/help/TraceLogger.html) to capture the executed operations. Be sure to disable all logging fields except `Log frame count` and `To the left of dissasembly`.
 
 - Use the `fceux-screenshot-per-frame.lua` Lua script to capture a screenshot of each frame of gameplay.
 
